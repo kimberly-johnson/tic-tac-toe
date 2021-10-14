@@ -1,0 +1,429 @@
+.board-container {
+    position: relative;
+    width: 50%;
+  }
+  .board-container img {
+  width: 100%;
+  height: auto;
+  }
+
+/* board buttons */
+  .board-container #T-L {
+  position: absolute;
+  top: 22%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 50px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.board-container #T-M {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 50px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.board-container #T-R {
+  position: absolute;
+  top: 22%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 50px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.board-container #M-L {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 50px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.board-container #M-M {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 50px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.board-container #M-R {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 50px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.board-container #B-L {
+  position: absolute;
+  top: 78%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 50px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.board-container #B-M {
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 50px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.board-container #B-R {
+  position: absolute;
+  top: 78%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 50px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* X images */
+.board-container #T-L-X {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 22%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 70px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .board-container #T-M-X {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 70px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .board-container #T-R-X {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 22%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 70px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .board-container #M-L-X {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 70px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .board-container #M-M-X {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 70px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .board-container #M-R-X {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 70px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .board-container #B-L-X {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 78%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 70px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .board-container #B-M-X {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 70px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .board-container #B-R-X {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 78%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 70px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+
+  /* O images */
+  .board-container #T-L-O {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 22%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .board-container #T-M-O {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .board-container #T-R-O {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 22%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .board-container #M-L-O {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .board-container #M-M-O {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .board-container #M-R-O {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  
+  visibility: hidden;  border-radius: 5px;
+  }
+  .board-container #B-L-O {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 78%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .board-container #B-M-O {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .board-container #B-R-O {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 78%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+  }
