@@ -145,10 +145,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: white;
-    font-size: 16px;
-    padding: 70px 70px;
-    border: none;
     cursor: pointer;
     border-radius: 5px;
     visibility: hidden;
@@ -162,10 +158,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: white;
-    font-size: 16px;
-    padding: 70px 70px;
-    border: none;
     cursor: pointer;
     border-radius: 5px;
     visibility: hidden;
@@ -179,10 +171,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: white;
-    font-size: 16px;
-    padding: 70px 70px;
-    border: none;
     cursor: pointer;
     border-radius: 5px;
     visibility: hidden;
@@ -196,10 +184,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: white;
-    font-size: 16px;
-    padding: 70px 70px;
-    border: none;
     cursor: pointer;
     border-radius: 5px;
     visibility: hidden;
@@ -213,10 +197,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: white;
-    font-size: 16px;
-    padding: 70px 70px;
-    border: none;
     cursor: pointer;
     border-radius: 5px;
     visibility: hidden;
@@ -230,10 +210,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: white;
-    font-size: 16px;
-    padding: 70px 70px;
-    border: none;
     cursor: pointer;
     border-radius: 5px;
     visibility: hidden;
@@ -247,10 +223,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: white;
-    font-size: 16px;
-    padding: 70px 70px;
-    border: none;
     cursor: pointer;
     border-radius: 5px;
     visibility: hidden;
@@ -264,10 +236,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: white;
-    font-size: 16px;
-    padding: 70px 70px;
-    border: none;
     cursor: pointer;
     border-radius: 5px;
     visibility: hidden;
@@ -281,10 +249,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: white;
-    font-size: 16px;
-    padding: 70px 70px;
-    border: none;
     cursor: pointer;
     border-radius: 5px;
     visibility: hidden;
@@ -300,10 +264,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: black;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
     visibility: hidden;
   }
   .board-container #T-M-O {
@@ -315,10 +275,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: black;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
     visibility: hidden;
   }
   .board-container #T-R-O {
@@ -330,10 +286,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: black;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
     visibility: hidden;
   }
   .board-container #M-L-O {
@@ -345,10 +297,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: black;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
     visibility: hidden;
   }
   .board-container #M-M-O {
@@ -360,10 +308,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: black;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
     visibility: hidden;
   }
   .board-container #M-R-O {
@@ -391,10 +335,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: black;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
     visibility: hidden;
   }
   .board-container #B-M-O {
@@ -406,10 +346,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: black;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
     visibility: hidden;
   }
   .board-container #B-R-O {
@@ -421,9 +357,5 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    color: black;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
     visibility: hidden;
   }
